@@ -9,6 +9,7 @@ var
 	len:integer;
 	str:string;
 begin
+	total:=0;
 	if paramcount=1 then
 	begin
 		str:=paramstr(1);
