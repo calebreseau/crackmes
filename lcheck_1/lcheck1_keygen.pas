@@ -11,7 +11,7 @@ begin
 	sum:=0;
 	while sum<1238 do
 	begin
-		rnd:=random(26)+100;
+		rnd:=random(33)+100;
 		if sum+rnd>1212 then
 		begin
 			final:=final+chr(1238-sum);
