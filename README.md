@@ -1,5 +1,5 @@
 # crackmes
-All the crackme's and tutorial / demos on how to crack them
+C / Pascal crackme's and tutorial / solution demos
 
 You should try to crack the program before looking at the code and the demo.
 
