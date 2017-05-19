@@ -21,7 +21,6 @@ begin
 			rnd:=random(25)+97;
 			if sum+rnd>400+3*i-25 then
 			begin
-				writeln('sum('+inttostr(sum)+')+rnd('+inttostr(rnd)+')='+inttostr(sum+rnd)+'>'+inttostr(400+3*i-25));
 				tmp:=tmp+chr(400+3*i-sum);
 				sum:=400+3*i;
 			end

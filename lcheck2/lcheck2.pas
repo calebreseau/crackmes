@@ -40,9 +40,9 @@ begin
 		begin
 			writeline('Wrong key');
 		end;
-		if ansicontainsstr(input,'-') then
+		if ansicontainsstr(input,chr(45)) then
 		begin
-			keys:=strsplit(input,'-');
+			keys:=strsplit(input,chr(45));
 			if keys.count=4 then
 			begin
 				bol:=true;
@@ -80,6 +80,6 @@ begin
 	end
 	else
 	begin
-		writeln('Usage: <key>');
+		writeln(chr(85)+chr(115)+chr(97)+chr(103)+chr(101)+chr(58)+chr(32)+chr(60)+chr(107)+chr(101)+chr(121)+chr(62));//('Usage: <key>');
 	end;
 end.
